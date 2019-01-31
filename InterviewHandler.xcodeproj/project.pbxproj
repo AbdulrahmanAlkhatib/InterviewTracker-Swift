@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42BA2DA1F457C9A0021A4F4 /* FilteredTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42BA2D91F457C9A0021A4F4 /* FilteredTableViewController.swift */; };
+		B44F1AA21F46E04E004D5FE4 /* EklemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F1AA11F46E04E004D5FE4 /* EklemeViewController.swift */; };
 		B499568B1F388F8F00B811B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499568A1F388F8F00B811B3 /* AppDelegate.swift */; };
 		B499568D1F388F8F00B811B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499568C1F388F8F00B811B3 /* ViewController.swift */; };
 		B49956901F388F8F00B811B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B499568E1F388F8F00B811B3 /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		B49956951F388F8F00B811B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49956931F388F8F00B811B3 /* LaunchScreen.storyboard */; };
 		B49956A01F388F8F00B811B3 /* InterviewHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499569F1F388F8F00B811B3 /* InterviewHandlerTests.swift */; };
 		B49956AB1F388F8F00B811B3 /* InterviewHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49956AA1F388F8F00B811B3 /* InterviewHandlerUITests.swift */; };
+		B49956BA1F3896F200B811B3 /* SystemUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49956B91F3896F200B811B3 /* SystemUser.swift */; };
+		B49956BC1F3898E300B811B3 /* Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49956BB1F3898E300B811B3 /* Interview.swift */; };
+		B4A1BE431F3B37A600344347 /* InterviewsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A1BE421F3B37A600344347 /* InterviewsStoryboard.storyboard */; };
+		B4BA01721F42D8750068873E /* TheNewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA01711F42D8750068873E /* TheNewTableViewController.swift */; };
+		B4BA01741F430DC50068873E /* FilterlemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA01731F430DC50068873E /* FilterlemeViewController.swift */; };
+		B4BDF6E61F3D9F440055C4FE /* InterviewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDF6E51F3D9F440055C4FE /* InterviewDetailsViewController.swift */; };
+		B4BDF6EC1F3DF1100055C4FE /* PopupMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDF6EB1F3DF1100055C4FE /* PopupMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42BA2D91F457C9A0021A4F4 /* FilteredTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredTableViewController.swift; sourceTree = "<group>"; };
+		B44F1AA11F46E04E004D5FE4 /* EklemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EklemeViewController.swift; sourceTree = "<group>"; };
 		B49956871F388F8F00B811B3 /* InterviewHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B499568A1F388F8F00B811B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B499568C1F388F8F00B811B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		B49956A61F388F8F00B811B3 /* InterviewHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49956AA1F388F8F00B811B3 /* InterviewHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewHandlerUITests.swift; sourceTree = "<group>"; };
 		B49956AC1F388F8F00B811B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49956B91F3896F200B811B3 /* SystemUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUser.swift; sourceTree = "<group>"; };
+		B49956BB1F3898E300B811B3 /* Interview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interview.swift; sourceTree = "<group>"; };
+		B4A1BE421F3B37A600344347 /* InterviewsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterviewsStoryboard.storyboard; sourceTree = "<group>"; };
+		B4BA01711F42D8750068873E /* TheNewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheNewTableViewController.swift; sourceTree = "<group>"; };
+		B4BA01731F430DC50068873E /* FilterlemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterlemeViewController.swift; sourceTree = "<group>"; };
+		B4BDF6E51F3D9F440055C4FE /* InterviewDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewDetailsViewController.swift; sourceTree = "<group>"; };
+		B4BDF6EB1F3DF1100055C4FE /* PopupMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopupMenuViewController.swift; path = ../PopupMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,18 @@
 		B49956891F388F8F00B811B3 /* InterviewHandler */ = {
 			isa = PBXGroup;
 			children = (
-				B499568A1F388F8F00B811B3 /* AppDelegate.swift */,
+				B49956B81F388FC100B811B3 /* support files */,
 				B499568C1F388F8F00B811B3 /* ViewController.swift */,
+				B4BA01711F42D8750068873E /* TheNewTableViewController.swift */,
+				B4BDF6E51F3D9F440055C4FE /* InterviewDetailsViewController.swift */,
+				B4BDF6EB1F3DF1100055C4FE /* PopupMenuViewController.swift */,
+				B4BA01731F430DC50068873E /* FilterlemeViewController.swift */,
+				B42BA2D91F457C9A0021A4F4 /* FilteredTableViewController.swift */,
+				B44F1AA11F46E04E004D5FE4 /* EklemeViewController.swift */,
 				B499568E1F388F8F00B811B3 /* Main.storyboard */,
-				B49956911F388F8F00B811B3 /* Assets.xcassets */,
-				B49956931F388F8F00B811B3 /* LaunchScreen.storyboard */,
-				B49956961F388F8F00B811B3 /* Info.plist */,
+				B49956B91F3896F200B811B3 /* SystemUser.swift */,
+				B49956BB1F3898E300B811B3 /* Interview.swift */,
+				B4A1BE421F3B37A600344347 /* InterviewsStoryboard.storyboard */,
 			);
 			path = InterviewHandler;
 			sourceTree = "<group>";
@@ -123,6 +147,17 @@
 				B49956AC1F388F8F00B811B3 /* Info.plist */,
 			);
 			path = InterviewHandlerUITests;
+			sourceTree = "<group>";
+		};
+		B49956B81F388FC100B811B3 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				B499568A1F388F8F00B811B3 /* AppDelegate.swift */,
+				B49956911F388F8F00B811B3 /* Assets.xcassets */,
+				B49956931F388F8F00B811B3 /* LaunchScreen.storyboard */,
+				B49956961F388F8F00B811B3 /* Info.plist */,
+			);
+			name = "support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					B49956861F388F8F00B811B3 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9823WX6BWA;
 						ProvisioningStyle = Automatic;
 					};
 					B499569A1F388F8F00B811B3 = {
@@ -235,6 +271,7 @@
 				B49956951F388F8F00B811B3 /* LaunchScreen.storyboard in Resources */,
 				B49956921F388F8F00B811B3 /* Assets.xcassets in Resources */,
 				B49956901F388F8F00B811B3 /* Main.storyboard in Resources */,
+				B4A1BE431F3B37A600344347 /* InterviewsStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +297,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B499568D1F388F8F00B811B3 /* ViewController.swift in Sources */,
+				B42BA2DA1F457C9A0021A4F4 /* FilteredTableViewController.swift in Sources */,
+				B4BA01741F430DC50068873E /* FilterlemeViewController.swift in Sources */,
+				B44F1AA21F46E04E004D5FE4 /* EklemeViewController.swift in Sources */,
+				B4BDF6EC1F3DF1100055C4FE /* PopupMenuViewController.swift in Sources */,
 				B499568B1F388F8F00B811B3 /* AppDelegate.swift in Sources */,
+				B49956BA1F3896F200B811B3 /* SystemUser.swift in Sources */,
+				B4BA01721F42D8750068873E /* TheNewTableViewController.swift in Sources */,
+				B49956BC1F3898E300B811B3 /* Interview.swift in Sources */,
+				B4BDF6E61F3D9F440055C4FE /* InterviewDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9823WX6BWA;
 				INFOPLIST_FILE = InterviewHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sau.InterviewHandler;
@@ -426,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9823WX6BWA;
 				INFOPLIST_FILE = InterviewHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sau.InterviewHandler;
@@ -507,6 +554,7 @@
 				B49956B11F388F8F00B811B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49956B21F388F8F00B811B3 /* Build configuration list for PBXNativeTarget "InterviewHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +563,7 @@
 				B49956B41F388F8F00B811B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49956B51F388F8F00B811B3 /* Build configuration list for PBXNativeTarget "InterviewHandlerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				B49956B71F388F8F00B811B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
